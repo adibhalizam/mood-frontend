@@ -22,7 +22,7 @@ function App() {
     if (!text.trim()) return;
 
     try {
-      const res = await fetch("https://mood-api.onrender.com/predict", {
+      const res = await fetch("https://mood-api-ns8u.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
